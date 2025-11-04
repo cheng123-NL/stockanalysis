@@ -1,0 +1,29 @@
+[0m02:46:09.213739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024AF88E1070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024AFAB75400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024AFAB751F0>]}
+
+
+============================== 02:46:09.217738 | fe4a3c1f-db71-401e-aa7c-7b1b18a6de68 ==============================
+[0m02:46:09.217738 [info ] [MainThread]: Running with dbt=1.10.13
+[0m02:46:09.218739 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'quiet': 'False', 'no_print': 'None', 'profiles_dir': 'G:\\Users\\loki2\\.dbt', 'invocation_command': 'dbt init dbt_stocks', 'log_path': 'logs', 'log_format': 'default', 'write_json': 'True', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'target_path': 'None', 'empty': 'None', 'printer_width': '80', 'use_colors': 'True', 'introspect': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'static_parser': 'True', 'debug': 'False', 'version_check': 'True', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m02:46:09.239298 [debug] [MainThread]: Starter project path: G:\Users\loki2\Desktop\EndtoEndproject\realtimestock\venv\lib\site-packages\dbt\include\starter_project
+[0m02:46:09.262872 [info ] [MainThread]: 
+Your new dbt project "dbt_stocks" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:46:09.263872 [info ] [MainThread]: Setting up your profile.
+[0m02:50:24.618436 [info ] [MainThread]: Profile dbt_stocks written to G:\Users\loki2\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m02:50:24.619436 [debug] [MainThread]: Command `dbt init` succeeded at 02:50:24.619436 after 255.48 seconds
+[0m02:50:24.620435 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024AF88E1070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024AFAB75CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024AFAB75610>]}
+[0m02:50:24.621437 [debug] [MainThread]: Flushing usage events
+[0m02:50:25.589774 [debug] [MainThread]: An error was encountered while trying to flush usage events
